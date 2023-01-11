@@ -49,7 +49,7 @@ const Sidebar = () => {
     return classNames(
       "flex items-center cursor-pointer hover:bg-light-lighter rounded w-full overflow-hidden whitespace-nowrap",
       {
-        ["bg-light-lighter"]: activeMenu.id === menu.id,
+        ["bg-sky-500/100"]: activeMenu.id === menu.id,
       }
     );
   };
